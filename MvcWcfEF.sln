@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWcfEF", "MvcWcfEF\MvcWcfEF.csproj", "{EA910752-A7D9-456D-B8E9-C515DF5A924A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{A877E402-3C15-4223-AFAD-A2B698408B6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EA910752-A7D9-456D-B8E9-C515DF5A924A} = {EA910752-A7D9-456D-B8E9-C515DF5A924A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA910752-A7D9-456D-B8E9-C515DF5A924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA910752-A7D9-456D-B8E9-C515DF5A924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA910752-A7D9-456D-B8E9-C515DF5A924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA910752-A7D9-456D-B8E9-C515DF5A924A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A877E402-3C15-4223-AFAD-A2B698408B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A877E402-3C15-4223-AFAD-A2B698408B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A877E402-3C15-4223-AFAD-A2B698408B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A877E402-3C15-4223-AFAD-A2B698408B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D4DC177-76CF-4657-B7A8-A1AA9C207333}
+	EndGlobalSection
+EndGlobal

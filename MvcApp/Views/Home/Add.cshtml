@@ -1,0 +1,43 @@
+﻿@model MvcApp.Models.User
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add New User</h2>
+
+@using (Html.BeginForm())
+{
+
+    <div style="text-align:center">
+
+        <table>
+            <tr>
+                <td>
+                    Name :
+                </td>
+                <td>
+                    @Html.TextBoxFor(Model => Model.Name)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Email :
+                </td>
+                <td>
+                    @Html.TextBoxFor(Model => Model.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>
+               
+                </td>
+                <td>
+                    <input type="submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+
+    </div>
+}  
